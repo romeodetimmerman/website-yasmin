@@ -1,7 +1,8 @@
 {
-  "name": "KevinTrinh1227",
+  "name": "romeodetimmerman",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@emotion/react": "^11.13.5",
     "@fortawesome/fontawesome-svg-core": "^6.7.2",
