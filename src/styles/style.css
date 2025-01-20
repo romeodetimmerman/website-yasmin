@@ -356,35 +356,46 @@ a {
 }
 
 /*--------------------------------------------------------------
-# Education Course Table styles
+# Education styles
 --------------------------------------------------------------*/
 
-.education table,
-td,
-th {
-  border: 1px solid var(--background-primary);
+.education-section {
+  padding: 60px 0;
 }
 
-.education td {
-  padding-left: 0.7rem;
+.title-box {
+  margin-bottom: 40px;
 }
 
-.education th {
-  text-align: left;
-  color: var(--text-primary);
-  padding-top: 2.5rem;
-  font-size: 1.1rem;
+.education-box {
+  background: var(--background-secondary);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
-.education table {
-  border-collapse: collapse;
-  width: 100%;
+.education-box:hover {
+  background: var(--background-highlight);
 }
 
-.education td {
-  height: 50px;
+.education-degree {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--accent-primary);
+  transition: color 0.3s ease;
+}
+
+.education-school {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  transition: color 0.3s ease;
+}
+
+.education-years {
+  font-size: 0.875rem;
   color: var(--text-muted);
-  vertical-align: bottom;
+  transition: color 0.3s ease;
 }
 
 /*--------------------------------------------------------------
@@ -575,8 +586,22 @@ th {
 
 .card-recentprojects {
   background: var(--background-secondary);
-  color: var(--text-primary);
+  color: var(--text-primary); /* Text color */
   border-radius: 8px;
+  transition: background 0.3s ease, color 0.3s ease; /* Smooth transition for background and text */
+}
+
+.card-recentprojects:hover {
+  background: var(--background-highlight);
+  color: var(--accent-primary); /* Hover text color */
+}
+
+.card-recentprojects .card-body {
+  transition: color 0.3s ease; /* Explicit transition for child elements */
+}
+
+.card-recentprojects:hover .card-body {
+  color: var(--accent-primary); /* Change text color on hover */
 }
 
 .post-date a {
@@ -622,20 +647,6 @@ a {
 .card-recentprojects .card-body {
   position: relative;
 }
-
-/* fade in effect for card-body */
-
-.card-body:hover .card-description {
-  color: var(--accent-primary);
-  transition: color 0.5s ease-in-out;
-}
-
-.card-body:hover .resources-used {
-  color: var(--accent-primary);
-  transition: color 0.5s ease-in-out;
-}
-
-/* fade effect ends here */
 
 .card-recentprojects .card-category-box {
   position: absolute;

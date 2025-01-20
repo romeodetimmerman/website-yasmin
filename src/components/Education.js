@@ -7,9 +7,8 @@ const Education = () => {
 
   return (
     <Fade triggerOnce={true}>
-      <section id="education">
+      <section id="education" className="education-section">
         <div className="container">
-          {/* Section Header */}
           <div className="row">
             <div className="col-sm-12">
               <div className="title-box">
@@ -20,7 +19,6 @@ const Education = () => {
               </div>
             </div>
           </div>
-          {/* Degrees List */}
           <div className="row">
             {education.degrees.map((degree, index) => (
               <div
@@ -29,14 +27,10 @@ const Education = () => {
                 style={{ display: "flex", flexDirection: "column" }}
               >
                 <Fade delay={index * 200} cascade={false} triggerOnce={true}>
-                  <div className="education">
-                    <h4 style={{ fontWeight: "bold", marginBottom: "10px" }}>
-                      {degree.degree}
-                    </h4>
-                    <p style={{ margin: "0", fontSize: "1rem" }}>
-                      {degree.school}
-                    </p>
-                    <p style={{ margin: "0", fontSize: "1rem" }}>
+                  <div className="education-box">
+                    <h4 className="education-degree">{degree.degree}</h4>
+                    <p className="education-school">{degree.school}</p>
+                    <p className="education-years">
                       {degree.start_year} - {degree.end_year}
                     </p>
                   </div>
