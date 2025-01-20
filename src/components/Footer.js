@@ -62,16 +62,6 @@ const Footer = () => {
               <div className="credits">
                 {contentData.footer.copyright_line} &copy;
               </div>
-              <div className="fork-stars">
-                <a href={repoLink}>
-                  <span>
-                    {repoData && repoData.forks_count}{" "}
-                    <FontAwesomeIcon icon={faCodeFork} style={iconStyle} />
-                    {repoData && repoData.stargazers_count}{" "}
-                    <FontAwesomeIcon icon={faStar} style={iconStyle} />
-                  </span>
-                </a>
-              </div>
             </div>
           </div>
         </div>
