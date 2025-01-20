@@ -212,7 +212,7 @@ const SideProjects = () => {
                     <div className="card-footer">
                       <div className="post-author">
                         <span className="author">
-                          {project.start_date} - {project.end_date}
+                          {project.start_date} {project.end_date}
                         </span>
                       </div>
                       <div className="post-date">

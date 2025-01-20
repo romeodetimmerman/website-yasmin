@@ -103,7 +103,7 @@ const RepoStats = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Repo Name: {repoData.name}
+            Repository: {repoData.name}
           </a>{" "}
           •{" "}
           <a
@@ -119,7 +119,7 @@ const RepoStats = () => {
           </a>{" "}
           •{" "}
           <a href={last_commit_link} target="_blank" rel="noreferrer">
-            Last Push: {new Date(repoData.pushed_at).toLocaleString()} CST
+            Last Commit: {new Date(repoData.pushed_at).toLocaleString()} CST
           </a>
         </p>
       </Fade>
