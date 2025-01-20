@@ -1,13 +1,17 @@
 :root {
-  --background-primary: #0b182c;
-  --background-secondary: #12223d;
-  --background-highlight: #233450;
-  --accent-primary: #b8e3e9;
-  --accent-primary: #e9f1fc;
-  --text-primary: #d4ddf8;
-  --text-secondary: #8992ac;
-  --text-muted: #acb5cf;
-  --border-color: #d0d8f3;
+  --background-primary: #111111; /* Darker, deeper black */
+  --background-secondary: #1a1a1a; /* Slightly lighter black for subtle contrast */
+  --background-highlight: #222222; /* Highlighted sections, not too contrasting */
+  
+  --accent-primary: #FFFFFF; /* Bright cyan-blue for vibrant accents */
+  --accent-secondary: #ffb400; /* Golden yellow for an energetic secondary accent */
+  
+  --text-primary: #f0f0f0; /* Bright, readable text on dark background */
+  --text-secondary: #bbbbbb; /* Muted gray for secondary text */
+  --text-muted: #888888; /* Subtle muted text */
+  
+  --border-color: #FFFFFF; /* Subtle border for consistency with dark theme */
+  
   --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;
   --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
