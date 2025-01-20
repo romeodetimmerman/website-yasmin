@@ -20,7 +20,7 @@ import content from "./content.json";
 // order for that specific component to load in the app.js
 
 function App() {
-  const { intro_screen, about_me, academics, experience, projects } = content;
+  const { intro_screen, about_me, academics, experience, projects, repo_stats } = content;
 
   return (
     <Router>
@@ -30,7 +30,7 @@ function App() {
           element={
             <div>
               <Navbar />
-              <RepoStats />
+              {repo_stats.section.enable_section && <RepoStats />}
               <Linkbar />
               {intro_screen.section.enable_section && <Intro />}
               {about_me.section.enable_section && <About />}

@@ -12,7 +12,7 @@
   },
   "repo_stats": {
     "section": {
-      "enable_section": true
+      "enable_section": false
     },
     "repo_link": "https://github.com/romeodetimmerman/portfolio-website",
     "api_link": "https://api.github.com/repos/romeodetimmerman/portfolio-website"
