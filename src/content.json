@@ -57,6 +57,12 @@
     "degrees": [
       {
         "school": "Ghent University",
+        "degree": "Doctor of Linguistics",
+        "start_year": 2022,
+        "end_year": 2026
+      },
+      {
+        "school": "Ghent University",
         "degree": "Master of Science in Statistical Data Analysis",
         "start_year": 2024,
         "end_year": 2026
@@ -83,7 +89,16 @@
         "start_date": "2022",
         "end_date": "2026",
         "description": [
-          "Conducting research on the use of African American English by contemporary blues performers, and the social meanings that these stylistic-linguistic practices generate."
+          "Project on the use of African American English by contemporary blues performers."
+        ]
+      },
+      {
+        "organization": "Ghent University",
+        "title": "Language Instructor",
+        "start_date": "2021",
+        "end_date": "2022",
+        "description": [
+          "Teaching elelctive courses academic English to undergraduate and graduate students."
         ]
       },
       {
@@ -92,7 +107,7 @@
         "start_date": "2020",
         "end_date": "2022",
         "description": [
-          "Project on contact tracing telephone interactions during the COVID-19 pandemic"
+          "Project on contact tracing telephone interactions during the COVID-19 pandemic."
         ]
       }
     ]
