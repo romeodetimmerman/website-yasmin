@@ -48,7 +48,7 @@ const Intro = () => {
         <div className="col-sm-12">
           <section class="intro_section">
             <Fade direction="down" triggerOnce={true}>
-              <h1>{introContent.main_header}</h1>
+            <h1 className="no-wrap-text" dangerouslySetInnerHTML={{ __html: introContent.main_header }}></h1>
               <p>
                 <strong>{introContent.main_subtitle}</strong>
               </p>
