@@ -1,17 +1,17 @@
 :root {
-  --background-primary: #111111; /* Darker, deeper black */
-  --background-secondary: #1a1a1a; /* Slightly lighter black for subtle contrast */
-  --background-highlight: #222222; /* Highlighted sections, not too contrasting */
+  --background-primary: #ffffff; /* Light background */
+  --background-secondary: #f9f9f9; /* Slightly darker white for subtle contrast */
+  --background-highlight: #f2f2f2; /* Highlighted sections with light gray */
   
-  --accent-primary: #FFFFFF; /* Bright cyan-blue for vibrant accents */
-  --accent-secondary: #ffb400; /* Golden yellow for an energetic secondary accent */
+  --accent-primary: #ffc0cb; /* Pastel pink for primary accents */
+  --accent-secondary: #ffe4e1; /* Light coral pink for secondary accents */
   
-  --text-primary: #f0f0f0; /* Bright, readable text on dark background */
-  --text-secondary: #bbbbbb; /* Muted gray for secondary text */
-  --text-muted: #888888; /* Subtle muted text */
+  --text-primary: #333333; /* Dark gray for readable text on light background */
+  --text-secondary: #666666; /* Medium gray for secondary text */
+  --text-muted: #999999; /* Light gray for muted text */
   
-  --border-color: #FFFFFF; /* Subtle border for consistency with dark theme */
-  
+  --border-color: #ffc0cb; /* Pastel pink for borders to match accent */
+
   --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;
   --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
