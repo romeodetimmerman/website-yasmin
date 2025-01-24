@@ -3,14 +3,14 @@
   --background-secondary: #f9f9f9; /* Slightly darker white for subtle contrast */
   --background-highlight: #f2f2f2; /* Highlighted sections with light gray */
   
-  --accent-primary: #ffc0cb; /* Pastel pink for primary accents */
+  --accent-primary: #E57DAB; /* pink for primary accents */
   --accent-secondary: #ffe4e1; /* Light coral pink for secondary accents */
   
   --text-primary: #333333; /* Dark gray for readable text on light background */
   --text-secondary: #666666; /* Medium gray for secondary text */
   --text-muted: #999999; /* Light gray for muted text */
   
-  --border-color: #ffc0cb; /* Pastel pink for borders to match accent */
+  --border-color: #E57DAB; /* Pastel pink for borders to match accent */
 
   --font-sans: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
     system-ui, sans-serif;
