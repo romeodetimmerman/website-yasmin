@@ -4,10 +4,10 @@
     "middle_name": "",
     "last_name": "Crombez",
     "navbar_social_links": {
-      "github": "https://github.com/romeodetimmerman",
+      "CRIS": "https://researchportal.vub.be/en/persons/yasmin-crombez",
       "resume": "/assets/Resume.pdf",
-      "linkedin": "https://www.linkedin.com/in/romeo-detimmerman/",
-      "email": "mailto:romeo.detimmerman@gmail.com"
+      "linkedin": "https://www.linkedin.com/in/yasmin-crombez/",
+      "email": "mailto:yasmincrombez@gmail.com"
     }
   },
   "repo_stats": {
@@ -37,14 +37,14 @@
     },
     "headShotUrl": "../assets/portrait.png",
     "bio": [
-      "I obtained my master's degree in English and Dutch linguistics and literature from Ghent University in 2020. Since then, I have worked as a researcher on a one-year FWO-funded research project, and as a full-time language instructor. In November 2022, I started working as a doctoral researcher at Ghent University under supervision of Prof. Dr. Stef Slembrouck (UGent) and Prof. Dr. Matthias Heyman (VUB). My PhD project focuses on the use of African American English by contemporary blues performers, and the social meanings that these stylistic-linguistic practices generate."
+      "I'm a sociolinguist with a profound interest in heritage languages in the past. In 2019, I obtained my master's in literature and linguistics Dutch - English at Ghent University. In that same year, I started working at Vrije Universiteit Brussel at as a research and teaching assistent. In 2021, I was granted an FWO fellowship for fundamental research to work on my PhD project 'From the promised land' which focuses on the language use of Flemings in North-America in the 19th and 20th centuries."
     ],
     "skills_caption": "",
     "skills": [
-      "Python",
-      "SAS",
-      "R",
-      "SQL"
+      "(Historical) sociolinguistics",
+      "Heritage language linguistics",
+      "English & Dutch",
+      "R"
     ]
   },
   "academics": {
@@ -56,22 +56,16 @@
     },
     "degrees": [
       {
-        "school": "Ghent University",
+        "school": "Vrije Universiteit Brussel",
         "degree": "Doctor of Linguistics",
-        "start_year": 2022,
-        "end_year": 2026
-      },
-      {
-        "school": "Ghent University",
-        "degree": "Master of Science in Statistical Data Analysis",
-        "start_year": 2024,
-        "end_year": 2026
+        "start_year": 2021,
+        "end_year": 2025
       },
       {
         "school": "Ghent University",
         "degree": "Master of Arts in Linguistics and Literature",
-        "start_year": 2019,
-        "end_year": 2020
+        "start_year": 2018,
+        "end_year": 2019
       }
     ]
   },
@@ -84,64 +78,33 @@
     },
     "experience_items": [
       {
-        "organization": "Ghent University",
+        "organization": "VUB & FWO",
         "title": "Doctoral Researcher",
-        "start_date": "2022",
-        "end_date": "2026",
-        "description": [
-          "Project on the use of African American English by contemporary blues performers."
-        ]
-      },
-      {
-        "organization": "Ghent University",
-        "title": "Language Instructor",
         "start_date": "2021",
-        "end_date": "2022",
+        "end_date": "2025",
         "description": [
-          "Teaching elective courses on academic English to undergraduate and graduate students."
+          "From the promised land: a historical sociolinguistic study on Belgian Dutch as a heritage language in 19th- and 20th century North America"
         ]
       },
       {
-        "organization": "Ghent University",
-        "title": "Research Assistant",
-        "start_date": "2020",
-        "end_date": "2022",
+        "organization": "VUB",
+        "title": "Research & teaching assistent",
+        "start_date": "2019",
+        "end_date": "2021",
         "description": [
-          "Project on contact tracing telephone interactions during the COVID-19 pandemic."
+          "Teaching courses on the Dutch linguistic system to undergraduate students."
         ]
       }
     ]
   },
   "projects": {
     "section": {
-      "enable_section": true,
+      "enable_section": false,
       "title": "Projects",
       "navbar_name": "/Projects",
       "description": ""
     },
-    "project_items": [
-      {
-        "use_git_api": false,
-        "api_github_repo_link": "",
-        "project_name": "AAE in Blues: Prediction Model",
-        "description": "Gradient boosted decision tree model trained to predict whether or not blues performers will realize certain features of African American English while singing.",
-        "resources_used": ["Python"],
-        "start_date": "2024",
-        "end_date": "",
-        "links": [
-          {
-            "href": "https://github.com/romeodetimmerman/aae-in-blues-slx_and_music",
-            "icon": "FaGithub",
-            "data_tooltip": "Source code"
-          },
-          {
-            "href": "https://doi.org/10.3390/languages9070229",
-            "icon": "FiExternalLink",
-            "data_tooltip": "Journal article"
-          }
-        ]
-      }
-    ]
+    "project_items": []
   },
   "footer": {
     "line_one": "Built by",
