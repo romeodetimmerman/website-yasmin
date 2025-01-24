@@ -29,8 +29,7 @@ const Footer = () => {
                 {contentData.footer.line_one}{" "}
                 <a href="https://github.com/romeodetimmerman">
                   <strong>
-                    {general.first_name} {general.middle_name}{" "}
-                    {general.last_name}
+                    Romeo De Timmerman
                   </strong>
                 </a>
                 .
