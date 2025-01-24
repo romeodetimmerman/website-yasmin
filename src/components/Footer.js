@@ -17,7 +17,6 @@ import contentData from "../content.json";
 */
 
 const Footer = () => {
-  const general = contentData.general;
 
   return (
     <footer>
