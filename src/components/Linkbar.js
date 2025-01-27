@@ -1,6 +1,6 @@
 import React from "react";
 import contentData from "../content.json";
-import { FaGithub, FaLinkedin, FaFileAlt } from "react-icons/fa";
+import { FaAddressCard, FaLinkedin, FaFileAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Fade } from "react-awesome-reveal";
 
@@ -48,8 +48,8 @@ const Linkbar = () => {
       rel: "noreferrer",
     },
     {
-      icon: FaGithub,
-      href: general.navbar_social_links.github,
+      icon: FaAddressCard,
+      href: general.navbar_social_links.CRIS,
       target: "_blank",
       rel: "noreferrer",
     },

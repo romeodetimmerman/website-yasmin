@@ -987,7 +987,7 @@ li {
 }
 
 /* minimum screen width for the nav, links, etc to fit */
-@media (min-width: 1660px) {
+@media (min-width: 1440px) {
   .repo-stats {
     display: block;
     position: fixed;
